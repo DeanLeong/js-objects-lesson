@@ -79,7 +79,7 @@ A key can be either a name, a number or a string, the corresponding value to a k
 
 ## Creating Objects
 
-There are 4 different ways to create an object.
+There are a few ways to create an object.
 
 #### Object constructor
 
@@ -112,31 +112,6 @@ const Classroom = function(name, numberOfStudents) {
 }
 
 const sei = new Classroom('SEI NYC', 25);
-```
-
-#### Object.create
-
-It is possible to use the syntax [`Object.create()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create).
-
-This method can take an object in argument as the prototype, allowing you to create an object without having to use a constructor function.
-
-
-```javascript
-const Person = {
-  type: 'Human',
-  displayType: function(){
-    console.log(this.type);
-  }
-}
-
-const person1 = Object.create(Person);
-person1.displayType();
-=> Human
-
-const person2 = Object.create(Person);
-person2.type = 'Man';
-person2.displayType();
-=> Man
 ```
 
 ## Object Properties
