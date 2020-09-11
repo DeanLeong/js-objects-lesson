@@ -310,23 +310,6 @@ student === student
 
 If you're confused by the difference between `==` and `===` review MDN's notes on [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_()) and [strict equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity_strict_equality_())
 
-## Independent Monkey Exercise
-
-- Create a `monkey` object, which has the following properties:
-
-  - `name`
-  - `species`
-  - `foodsEaten`
-
-  And the following methods:
-
-  - `eatSomething(thingAsString)`
-  - `introduce`: producers a string introducing itself, including its name, species, and what it's eaten
-
-- Create 3 monkeys total. Make sure all 3 monkeys have all properties set and methods defined.
-
-- Exercise your monkeys by retrieving their properties and using their methods. Practice using both syntaxes for retrieving properties (dot notation and brackets).
-
 ## Conclusion
 
 We will use objects in JavaScript every day, and you will have plenty of time to practice creating and using objects in Javascript. There are a lot of resources available on the web for you to dive deeper, but the most detailed and understandable one is probably MDN.
